@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    width: 100%;
+}
+
+.container .det {
+    margin-left: -20em;
+    margin-bottom: -1em;
+    color: darkslategray;
+}
+
+.taskslist {
+    background: black;
+    width: 400px;
+    height: auto;
+    border-radius: 1.6em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.add {
+    margin-top: 2em;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.add input {
+    width: 250px;
+    outline: none;
+    border: 1px solid purple;
+    background: transparent;
+    color: #fff;
+    padding: .6em 1em;
+    border-radius: .4em;
+    font-size: .7em;
+    font-weight: 300;
+}
+
+.add input::placeholder {
+    color: lightgrey;
+}
+
+.add button {
+    background: purple;
+    padding: .1em .4em;
+    border-radius: .4em;
+    color: lightgrey;
+    border: none;
+    outline: none;
+}
+
+.list {
+    width: 300px;
+    margin: 1.4em 0;
+}
+
+.list h2 {
+    color: lightgrey;
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+
+.list .task {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: hsl(0, 0%, 8%);
+    margin-bottom: 1em;
+    border-radius: .3em;
+    padding: 1em .8em;
+    color: purple;
+}
+
+.task p {
+    font-size: .9em;
+}
+
+.task span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.task span img {
+    width: 18px;
+}
+
+.taskdone {
+    width: 300px;
+    margin-bottom: 1.5em;
+}
+
+.taskdone h2 {
+    color: lightgrey;
+    font-size: 1em;
+    margin-bottom: 1em;   
+}
+
+.taskdone .listdone {
+    background: hsl(0, 0%, 8%);
+    padding: 1em .7em;
+    border-radius: .3em;
+    font-size: .9em;
+}
+
+.task .display {
+    color: red;
+}
